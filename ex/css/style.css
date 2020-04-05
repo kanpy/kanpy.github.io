@@ -1,0 +1,89 @@
+            html {
+                color: #000000;
+                font-family: "ヒラギノ丸ゴ Pro W4";
+                box-sizing: border-box;
+            }
+            /*ヘッダー画像を中央寄せ*/
+            
+            header {
+                text-align: center;
+                padding: 30px;
+            }
+            /*ナビゲーション*/
+            
+            nav ul {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                overflow-wrap: break-word;
+            }
+            
+            li.navi_1 {
+                border-left: 1px solid #000000;
+                border-right: 1px solid #000000;
+                text-align: center;
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+            
+            li.navi_2 {
+                margin-top: 10px;
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+            
+            li.navi_3 {
+                border-left: 1px solid #000000;
+                border-right: 1px solid #000000;
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+            /*トップ画像を中央寄せ・上部に線*/
+            
+            div.topimage_center {
+                text-align: center;
+            }
+            
+            div.topimage {
+                display: inline-block;
+                border-top: 5px solid #ec6c2b;
+            }
+            /*見出しを中央寄せ・下線*/
+            
+            div.center {
+                text-align: center;
+            }
+            
+            h1 {
+                display: inline-block;
+                padding: 20px;
+                border-bottom: 3px solid #ec6c2b;
+            }
+            /*本文*/
+            
+            p {
+                text-align: center;
+            }
+            /*ボタン・矢印をつける*/
+            
+            section ul {
+                text-align: center;
+            }
+            
+            section ul li {
+                display: inline-block;
+                list-style: none;
+                padding: 10px;
+                background: #ec6c2b;
+                color: #ffffff;
+            }
+            
+            div.arrow::after {
+                left: 3px;
+                width: 4px;
+                height: 4px;
+                border-top: 2px solid #ffffff;
+                border-right: 2px solid #ffffff;
+                -webkit-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
